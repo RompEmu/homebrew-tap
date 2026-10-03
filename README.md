@@ -1,6 +1,6 @@
-# Romp Homebrew tap
+# RomP Homebrew tap
 
-Install [Romp](https://github.com/RompEmu/RompEmu) on Apple Silicon Macs:
+Install [RomP](https://github.com/RompEmu/RompEmu) on Apple Silicon Macs:
 
 ```sh
 brew install --cask rompemu/tap/romp
