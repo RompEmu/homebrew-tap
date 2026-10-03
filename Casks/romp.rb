@@ -1,9 +1,9 @@
 cask "romp" do
-  version "0.9.0"
-  sha256 "a2d311c5808e07be3d877d76405ab4c671943334c1ec845c7892e506b73ae591"
+  version "0.10.0"
+  sha256 "9a8c471915e1bfacfa509b3ae80f648a1b2929e70bba2e30606ea4ad9499f534"
 
-  url "https://github.com/RompEmu/RompEmu/releases/download/v#{version}/Romp-#{version}-macos-arm64.zip"
-  name "Romp"
+  url "https://github.com/RompEmu/RompEmu/releases/download/v#{version}/RomP-#{version}-macos-arm64.zip"
+  name "RomP"
   desc "Play the games in your RomM library"
   homepage "https://github.com/RompEmu/RompEmu"
 
@@ -15,7 +15,7 @@ cask "romp" do
   depends_on arch: :arm64
   depends_on :macos
 
-  app "Romp.app"
+  app "RomP.app"
 
   zap trash: "~/Library/Application Support/Romp"
 end
