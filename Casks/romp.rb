@@ -1,6 +1,6 @@
 cask "romp" do
-  version "0.19.0"
-  sha256 "386d4622a4635140bb9310c742b126e31d1d9c5de4b0a288a388d8f2d9633ab1"
+  version "0.20.0"
+  sha256 "42d420e4453130b2b79f41fe0dbb1eb374b81caa18fb2533e898e3c3af40c6e9"
 
   url "https://github.com/RompEmu/RomP/releases/download/v#{version}/RomP-#{version}-macos-arm64.zip"
   name "RomP"
